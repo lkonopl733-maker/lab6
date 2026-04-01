@@ -1,0 +1,94 @@
+/* Скидання стилів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY + FLEXBOX */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* КОНТЕЙНЕР */
+.form-container {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Група */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* СЕЛЕКТОРИ ЗА АТРИБУТОМ */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* ПСЕВДОКЛАС focus */
+input:focus,
+textarea:focus {
+  border-color: #db34a9;
+  outline: none;
+}
+
+/* КНОПКА */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #db34a9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ПСЕВДОКЛАС hover */
+.submit-btn:hover {
+  background: #db34a9;
+}
+
+/* ФУТЕР */
+.form-footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* ПОСИЛАННЯ */
+.form-footer a {
+  text-decoration: none;
+  color: #db34a9;
+}
+
+/* hover для посилання */
+.form-footer a:hover {
+  text-decoration: underline;
+}
+.submit-btn {
+  display: block;
+  text-align: center;
+}
